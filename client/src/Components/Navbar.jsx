@@ -23,16 +23,16 @@ const Navbar = () => {
   const profileRef = useRef();
 
   // Close dropdown when clicking outside
-//   useEffect(() => {
-//     const handleClickOutside = (e) => {
-//       if (creditsRef.current && !creditsRef.current.contains(e.target))
-//         setShowCredits(false);
-//       if (profileRef.current && !profileRef.current.contains(e.target))
-//         setShowProfile(false);
-//     };
-//     document.addEventListener("mousedown", handleClickOutside);
-//     return () => document.removeEventListener("mousedown", handleClickOutside);
-//   }, []);
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (creditsRef.current && !creditsRef.current.contains(e.target))
+        setShowCredits(false);
+      if (profileRef.current && !profileRef.current.contains(e.target))
+        setShowProfile(false);
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
 
   const handleLogout = async () => {
     try {
