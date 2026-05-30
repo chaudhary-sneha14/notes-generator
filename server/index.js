@@ -25,7 +25,7 @@ app.post(
 app.use(cookieParser());
 app.use(cors(
   {
-    origin: 'http://localhost:5173', // Replace with your frontend URL
+    origin: 'https://notes-generator-client.onrender.com', // Replace with your frontend URL
     credentials: true, // Allow cookies to be sent with requests
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed HTTP methods
   }
