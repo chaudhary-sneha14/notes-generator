@@ -9,7 +9,7 @@ import Pricing from "./Pages/Pricing";
 import History from "./Pages/History";
 import PaymentSuccess from "./Pages/PaymentSuccess";
 import PaymentFailure from "./Pages/PaymentFailure";
-export const serverUrl = "http://localhost:8000";
+export const serverUrl = "https://notes-generatorserver-87wq.onrender.com";
 
 const App = () => {
 
