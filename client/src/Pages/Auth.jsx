@@ -17,7 +17,10 @@ const Auth = () => {
      const email=user.email
 
      const res= await axios.post(serverUrl+"/api/auth/google",{name,email},{withCredentials:true})
-     console.log(res);
+    //  console.log(res);
+
+     dispatch(setUserData(result.data));
+
      
      
     } catch (error) {
