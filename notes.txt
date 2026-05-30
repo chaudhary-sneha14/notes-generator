@@ -1,0 +1,60 @@
+Firebase is a Backend-as-a-Service (BaaS) platform by Google.
+
+It helps developers build apps faster without creating everything from scratch.
+
+//**********************************REDUX*********************************
+store -> centralized entity(manage state)
+
+Instead of every component keeping its own data separately,
+Redux keeps important data in one central place so every component can use it.
+
+//------------------------------------------------------------
+
+
+
+Recharts like a ready-made graph machine
+
+//------------------------------------------------------------
+useRef in React is used to:
+
+Store a value without re-rendering the component
+Access/manipulate DOM elements directly
+//------------------------------------------------------------
+
+
+What is Mermaid?
+
+Mermaid is a library that converts text into diagrams.
+
+
+Example:
+
+graph TD
+A --> B
+
+becomes:
+
+A → B
+
+visual diagram.
+//------------------------------------------------------------
+
+Example
+
+If AI returns:
+
+# DBMS
+## Features
+- Fast
+- Secure
+
+ReactMarkdown converts it into:
+
+headings
+bullet points
+formatted text
+
+//-------------------------------------------------------
+pdfkit ek library hai jo JavaScript se PDF banane ke liye use hoti hai.
+
+//pdfdownload controller,api.js,notes-controller,history
