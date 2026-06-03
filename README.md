@@ -1,32 +1,32 @@
 # 📚 AI Notes Generator
 
-An AI-powered learning platform that generates structured, exam-focused notes for any topic and difficulty level. The application creates detailed notes, diagrams, charts, and important exam questions using AI, helping students learn faster and prepare more effectively.
+An AI-powered study companion that generates structured, exam-focused notes for any topic and difficulty level. The platform creates detailed notes, diagrams, flowcharts, visual explanations, and important exam questions to help students learn faster and prepare more effectively.
 
 ---
 
 ## 🚀 Features
 
-✨ Generate AI-powered notes for any topic
+✨ Generate detailed AI-powered notes for any topic
 
-📚 Choose different difficulty levels (Beginner, Intermediate, Advanced)
+📚 Multiple difficulty levels (Beginner, Intermediate, Advanced)
 
-📊 Automatic diagrams, flowcharts, and visual explanations
+📊 AI-generated diagrams, flowcharts, and charts
 
-❓ Important exam questions with priority ratings (⭐⭐⭐, ⭐⭐⭐⭐, ⭐⭐⭐⭐⭐)
+❓ Exam-focused questions with priority ratings (⭐⭐⭐, ⭐⭐⭐⭐, ⭐⭐⭐⭐⭐)
 
-🕘 Notes history and saved notes access
+🕘 Save notes and access them anytime
 
-📄 Download generated notes as PDF
+📄 Download notes as PDF
 
 🔐 Secure Google Authentication
 
-💳 Credit-based system with Stripe payment integration
+💳 Credit-based system with Stripe integration
 
-🎁 50 free credits for every new user
+🎁 50 Free Credits for every new user
 
 📱 Fully responsive design for mobile, tablet, and desktop
 
-⚡ Fast and intuitive user experience
+⚡ Fast and user-friendly interface
 
 ---
 
@@ -37,7 +37,7 @@ An AI-powered learning platform that generates structured, exam-focused notes fo
 * React.js
 * Tailwind CSS
 * Axios
-* React Router
+* React Router DOM
 
 ### Backend
 
@@ -64,19 +64,19 @@ An AI-powered learning platform that generates structured, exam-focused notes fo
 
 ### PDF Generation
 
-* PDFKit / jsPDF
+* jsPDF / PDFKit
 
 ---
 
-## 📌 How It Works
+## 🌟 How It Works
 
-### Step 1: Login
+### Step 1: Sign In
 
-Users sign in securely using Google Authentication.
+Users securely log in using Google Authentication.
 
-### Step 2: Free Credits
+### Step 2: Get Free Credits
 
-Every new user receives 50 free credits.
+Every new user receives **50 free credits** upon registration.
 
 ### Step 3: Generate Notes
 
@@ -93,23 +93,25 @@ The Gemini AI generates:
 
 ✅ Key Concepts
 
-✅ Diagrams & Charts
+✅ Diagrams & Flowcharts
 
 ✅ Visual Explanations
 
-✅ Important Exam Questions
+✅ Exam-Oriented Questions
+
+✅ Priority-Based Questions (⭐⭐⭐ to ⭐⭐⭐⭐⭐)
 
 ### Step 5: Save & Download
 
 Users can:
 
-* Save notes permanently
-* View previous notes anytime
+* Save generated notes
+* Access notes history
 * Download notes as PDF
 
-### Step 6: Purchase Credits
+### Step 6: Buy More Credits
 
-When credits run low, users can purchase additional credits through Stripe.
+Users can purchase additional credits using Stripe when their free credits are exhausted.
 
 ---
 
@@ -118,16 +120,16 @@ When credits run low, users can purchase additional credits through Stripe.
 | Action                  | Credits Used |
 | ----------------------- | ------------ |
 | Generate Basic Notes    | 1 Credit     |
-| Generate Detailed Notes | 2 Credits    |
+| Generate Advanced Notes | 2 Credits    |
 | Download PDF            | Free         |
 
 ### Free Plan
 
 * 50 Free Credits
 
-### Paid Plan
+### Premium Plan
 
-* Purchase additional credits through Stripe
+* Purchase additional credits anytime using Stripe
 
 ---
 
@@ -140,8 +142,10 @@ AI-Notes-Generator/
 │   ├── src/
 │   ├── components/
 │   ├── pages/
+│   ├── assets/
+│   ├── context/
 │   ├── services/
-│   └── assets/
+│   └── utils/
 │
 ├── server/
 │   ├── controllers/
@@ -149,6 +153,7 @@ AI-Notes-Generator/
 │   ├── middleware/
 │   ├── models/
 │   ├── config/
+│   ├── services/
 │   └── utils/
 │
 ├── uploads/
@@ -161,19 +166,19 @@ AI-Notes-Generator/
 
 ## ⚙️ Installation & Setup
 
-### 1. Clone Repository
+### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/AI-Notes-Generator.git
 ```
 
-### 2. Navigate to Project Folder
+### 2️⃣ Navigate to the Project Directory
 
 ```bash
 cd AI-Notes-Generator
 ```
 
-### 3. Install Dependencies
+### 3️⃣ Install Dependencies
 
 #### Frontend
 
@@ -185,11 +190,11 @@ npm install
 #### Backend
 
 ```bash
-cd server
+cd ../server
 npm install
 ```
 
-### 4. Configure Environment Variables
+### 4️⃣ Configure Environment Variables
 
 Create a `.env` file inside the server directory:
 
@@ -213,13 +218,13 @@ STRIPE_WEBHOOK_SECRET=your_webhook_secret
 CLIENT_URL=http://localhost:5173
 ```
 
-### 5. Start Backend Server
+### 5️⃣ Start the Backend Server
 
 ```bash
 npm run server
 ```
 
-### 6. Start Frontend
+### 6️⃣ Start the Frontend
 
 ```bash
 npm run dev
@@ -227,26 +232,67 @@ npm run dev
 
 ---
 
-## 🎯 Future Improvements
+## 📸 Screenshots
 
-* Personalized study recommendations
-* AI-generated flashcards
-* AI-generated quizzes and MCQs
-* Dark mode support
-* Notes sharing with friends
-* Voice-to-notes generation
-* Multi-language support
-* Study progress analytics
+### Login Page
+
+<img width="1919" height="879" alt="Login" src="https://github.com/user-attachments/assets/3554a884-2bfe-4363-ac56-dbd228397c9e" />
+
+---
+
+### Home Page
+
+<img width="1915" height="874" alt="Home" src="https://github.com/user-attachments/assets/f6411024-b589-4820-b10b-1c213b89494e" />
+
+---
+
+### Notes Generator Input
+
+<img width="1919" height="843" alt="Notes Generator" src="https://github.com/user-attachments/assets/60819930-f321-454a-91a2-70506630a987" />
+
+---
+
+### Generated Notes
+
+<img width="1919" height="890" alt="Generated Notes" src="https://github.com/user-attachments/assets/ef832404-18d5-4fa0-b2f1-eeeabb6d5102" />
+
+---
+
+### Notes History
+
+<img width="1919" height="870" alt="History" src="https://github.com/user-attachments/assets/4281171e-a800-452f-8e88-1c10ce7dfe64" />
+
+---
+
+### Pricing Page
+
+<img width="1916" height="867" alt="Pricing" src="https://github.com/user-attachments/assets/901686f9-c85b-466e-a686-4d3cd5fc49ab" />
 
 ---
 
 ## 🔒 Security Features
 
 * Google OAuth Authentication
-* JWT Token Authorization
+* JWT-Based Authorization
 * Protected Routes
-* Secure Stripe Payments
-* Encrypted User Sessions
+* Secure Stripe Payment Processing
+* Environment Variable Protection
+* User Session Management
+
+---
+
+## 🎯 Future Improvements
+
+* AI-generated Flashcards
+* AI Quiz Generator
+* Personalized Study Recommendations
+* Dark Mode Support
+* Voice-to-Notes Generation
+* Notes Sharing Feature
+* Multi-Language Support
+* Learning Analytics Dashboard
+* AI Study Planner
+* Collaborative Study Rooms
 
 ---
 
@@ -255,27 +301,56 @@ npm run dev
 Contributions are welcome!
 
 1. Fork the repository
-2. Create a new branch
+2. Create a feature branch
+
+```bash
+git checkout -b feature-name
+```
+
 3. Commit your changes
-4. Push to your branch
+
+```bash
+git commit -m "Added new feature"
+```
+
+4. Push to GitHub
+
+```bash
+git push origin feature-name
+```
+
 5. Create a Pull Request
 
 ---
 
-## 📬 Contact
+## 📄 License
 
-For suggestions, feedback, or collaboration opportunities, feel free to connect.
-
-### Developer
-
-**Sneha Chaudhary**
-
-📧 Email: [your-email@example.com](mailto:snehachaudhary1411@gmail.com)
-
-💼 LinkedIn: your-[linkedin-profile](https://www.linkedin.com/in/sneha-chaudhary-a0a4652b4)
-
-
+This project is licensed under the MIT License.
 
 ---
 
-⭐ If you found this project useful, don't forget to give it a star on GitHub!
+## 👨‍💻 Developer
+
+### Sneha Chaudhary
+
+🎓 B.Tech Computer Science Student
+
+💻 Full Stack Developer
+
+🤖 AI & MERN Stack Enthusiast
+
+📧 Email: [snehachaudhary1411@gmail.com](mailto:snehachaudhary1411@gmail.com)
+
+💼 LinkedIn: [Sneha Chaudhary](https://www.linkedin.com/in/sneha-chaudhary-a0a4652b4)
+
+🌐 Live: https://notes-generator-client.onrender.com
+
+---
+
+## ⭐ Support
+
+If you found this project useful, please consider giving it a ⭐ on GitHub.
+
+Your support motivates further development and improvements.
+
+Happy Learning! 🚀
